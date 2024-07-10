@@ -5,7 +5,7 @@
 /*****************************************************************/
 
 // declarition
-constexpr int No_of_persons = 4;
+constexpr int No_of_persons = 100;
 int No_of_person = 0;
 bool IsRunning =true ; 
 
