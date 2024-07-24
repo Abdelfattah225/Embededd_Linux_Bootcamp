@@ -43,7 +43,7 @@ priority is changed!
 
 ![ Result  ](killall_command.png "top")
 
-all process are terminalted
+all process are terminated
 
 ![ Result  ](final_result.png "top")
 
