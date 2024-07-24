@@ -49,4 +49,8 @@ all process are terminalted
 
 
 
+ <h5>Read more about Killall command :</h5>
+https://www.geeksforgeeks.org/killall-command-in-linux-with-examples/#what-does-the-kill-all-command-do
+
+
 
