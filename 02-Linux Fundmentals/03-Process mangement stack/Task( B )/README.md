@@ -76,7 +76,7 @@ Allow users to search for processes based on criteria such as name, user, or res
 
 - Press o (the letter 'o').
 
-- ype %CPU>10 and press Enter to filter for processes using more than 10% CPU. You can replace 10 with any other value as needed.FOR EXAMPLE. 
+- Type %CPU>10 and press Enter to filter for processes using more than 10% CPU. You can replace 10 with any other value as needed.FOR EXAMPLE. 
 
 
 > $ %CPU>10
