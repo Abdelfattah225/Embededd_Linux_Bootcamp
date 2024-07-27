@@ -61,4 +61,4 @@
 
 </ol>
 
-![ Result  ](Layered_linux_Arch.png "dd")
+![ Result  ](Layered_linux_arch.png "dd")
