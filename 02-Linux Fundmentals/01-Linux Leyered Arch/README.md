@@ -60,3 +60,5 @@
 - output: gives information about the system. it may include textual information, error messages, status updates, or changes to the system's state. The output is typically displayed in the command-line interface or returned to the calling program for further processing.
 
 </ol>
+
+![ Result  ](Layered_linux_Arch.png "dd")
