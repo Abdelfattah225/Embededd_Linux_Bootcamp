@@ -58,9 +58,9 @@ remote synchronization, or advanced options.
 
  - <strong>cp:</strong> File System Stack
 
-- <strong>rsync:</strong> File System Stack
-- 
-  > $ strace -c -e trace=file "command"
+- <strong>rsync:</strong> File System Stack 
+
+> $ strace -c -e trace=file "command"
 
 ![ Result  ](systemCallInteract_cp_vs_rsync.png "cpVSrsync")
 
@@ -71,15 +71,48 @@ remote synchronization, or advanced options.
 
 - <strong>find:</strong> 0.001281 s
 
-  > $ strace -c "command"
+> $ strace -c "command"
 
   ![ Result  ](SystemCallBreakdown_cp_VS_rsync.png "cpVSrsync")
 
   <h4>d. Performance Evaluation :</h4>
 
-  ---------------------------------------------------------
-
-
-
 - <strong>cp</strong> is better than <strong>rsync</strong>
+
+---------------------------------------------------------
+
+<h3>3. diff VS. cmp</h3>
+
+<h4>a. time measurement</h4>
+
+ > $ time "command"
+
+![ Result  ](SysCall_diff_VS_cmp.png "diffVScmp")
+
+
+<h4>b. System Interaction Identification:</h4>
+
+ - <strong>diff:</strong> File System Stack
+
+- <strong>cmp:</strong> File System Stack 
+
+> $ strace -c -e trace=file "command"
+
+![ Result  ](systemCallInteract_diff_VS_cmp.png "cpVSrsync")
+
+<h4>c. Syscall Time Breakdown :</h4>
+
+ - <strong>diff:</strong> 0.000701 s
+
+- <strong>cmp:</strong> 0.000000 s
+
+> $ strace -c "command"
+
+  ![ Result  ](SystemCallBreakdown_diff_VS_cmp.png "cpVSrsync")
+
+  <h4>d. Performance Evaluation :</h4>
+
+- <strong>cmp</strong> is better than <strong>diff</strong>
+
+---------------------------------------------------------
 
