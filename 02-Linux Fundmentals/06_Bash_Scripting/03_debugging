@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+
+
+# set command : 
+#               set -e 
+#`              set -x --> tracing
+#               set -u --> error in-case access undefined variable
+#
+#
+
+
+set -e #once error detected -> script terminated
+set -x #tracing : 1. echo line........  2.Run line
+set -u 
+
+# echo "${NAME}
+echo "command 1"
+
+
+echo "command 2"
+
+ech "command 3"
+
+echo "command 4"
+
+    set +e
+
+
