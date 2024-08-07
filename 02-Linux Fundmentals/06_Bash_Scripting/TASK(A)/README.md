@@ -26,7 +26,7 @@ Suppose you have a directory called "Downloads" with the following files:
 
 look at the file Task_A.sh
 
-you should put the path of the file with execute the script
+you should put the path of the directory with execute the script
 
 > $ ./Task_A.sh {path/to/directory}
 
