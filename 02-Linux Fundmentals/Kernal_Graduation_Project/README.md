@@ -107,14 +107,14 @@ wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
 1. Capture Network Traffic on Interface 'wlp3s0' and Save to File:
 
-< $ tshark -i wlp3s0 -w network_traffic.pcap 
+> $ tshark -i wlp3s0 -w network_traffic.pcap 
 
-3. Analyze the Captured Network Traffic Using a Bash Script:
+2. Analyze the Captured Network Traffic Using a Bash Script:
 
-< $ bash ./analyze_traffic.sh ./network_traffic.pcap 
+> $ bash ./analyze_traffic.sh ./network_traffic.pcap 
 
 
-![ Result  ](Network_Traffic.png"top")
+![ top  ](Network_Traffic.png "Ex")
 
 
 
