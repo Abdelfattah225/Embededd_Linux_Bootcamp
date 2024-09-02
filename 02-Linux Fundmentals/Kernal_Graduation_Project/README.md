@@ -114,7 +114,7 @@ wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 > $ bash ./analyze_traffic.sh ./network_traffic.pcap 
 
 
-![ top  ](Network_Traffic.png "Ex")
+![ top  ](Network_Traffic_Project.png "Ex")
 
 
 
